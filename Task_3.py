@@ -18,3 +18,8 @@ elif x < 0 and y < 0:
     print('III четверть')
 elif x > 0 and y < 0:
     print('IV четверть')
+elif x == 0 and y != 0:
+    print('Точка лежит на оси Y')
+elif x != 0 and y == 0:
+    print('Точка лежит на оси X')
+
